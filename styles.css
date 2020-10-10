@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #262626;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  width: 60%;
+  border: 4px solid black;
+  margin: 150px auto;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+}
+
+#photo {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: -50px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a {
+  color: black;
+  margin: 48px auto;
+}
+
+a:visited {
+  color: black;
+}
+
+.link-icon:hover {
+  transform: scale(1.2);
+}
+
+#facebook:hover {
+  color: #3b5998;
+}
+
+#github:hover {
+  color: #211F1F;
+}
+
+#instagram:hover {
+  color: #F56040;
+}
+
+#twitter:hover {
+  color: #00acee;
+}
+
+#linkedin:hover {
+  color: #0e76a8;
+}
